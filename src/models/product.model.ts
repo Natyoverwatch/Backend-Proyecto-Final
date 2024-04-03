@@ -82,7 +82,7 @@ const ProductSchema = new Schema<ProductoInterface>({
     type: Boolean,
     required: true,
     default: true,
-  },
+  }, // problema del visual
   caracteristicas: {
     type: Object,
     required: true,
